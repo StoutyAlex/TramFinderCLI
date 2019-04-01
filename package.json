@@ -1,7 +1,7 @@
 {
-  "name": "tramfindercli",
+  "name": "tramfinder-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple CLI that will give you times for metrolink stops in Manchester.",
   "main": "index.js",
   "bin": {
     "tram-finder": "./index.js"
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Alex Stout",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
