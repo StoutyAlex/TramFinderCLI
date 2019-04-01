@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const axios = require('axios');
 
 const getData = async (stationName) => {
