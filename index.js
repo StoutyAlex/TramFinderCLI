@@ -1,7 +1,7 @@
 require('dotenv').config();
 const axios = require('axios');
 
-const stationName = 'ladywell';
+const stationName = 'ladywe1ll';
 
 const getData = async () => {
   return await axios.get('https://0snmtmpnm4.execute-api.eu-west-1.amazonaws.com/default/metrolink', {
@@ -35,4 +35,4 @@ const printData = (data) => {
 
 getData()
   .then(res => printData(res.data.data))
-  .catch(err => console.log(err.response.data));
+  .catch(err => console.log(err.response.data.error));
